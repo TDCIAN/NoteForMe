@@ -944,3 +944,39 @@
 
 
 
+### 대칭키 암호 방식 종류
+(1) DES(Data Encryption Standard)
+- 1975년 미국의 연방 표준국(NIST)에서 발표한 대칭 키 기반의 블록 암호화 알고리즘
+- 블록 크기는 64bit, 키 길이는 56bit인 페이스텔(Feistel) 구조
+- DES를 3번 적용하여 보안을 더욱 강화한 3DES도 활용됨
+
+(2) AES(Advanced Encryption Standard)
+- 2001년 미국 표준 기술 연구소(NIST)에서 발표한 블록 암호화 알고리즘
+- DES의 개인 키에 대한 전사적 공격이 가능해지고, 3DES의 성능 문제를 극복하기 위해 개발
+- 블록 크기는 128bit이며, 키 길이에 따라 128bit, 192bit, 256bit로 분류
+- AES의 라운드 수는 10, 12, 14라운드로 분류되며, 한 라운드는 SubBytes, ShiftRows, MixColumns, AddRoundKey의 4가지 계층으로 구성
+
+(3) SEED
+- 1999년 한국인터넷진흥원(KISA)이 개발한 블록 암호화 알고리즘
+- 128bit 비밀키로부터 생성된 16개의 64bit 라운드 키를 사용하여 총 16회의 라운드를 거쳐 128bit의 평문 블록을 128bit 암호문 블록으로 암호화하여 출력하는 방식
+- 블록 크기는 128bit이며, 키 길이에 따라 128bit, 256bit로 분류
+
+(4) ARIA(Academy, Research, Institute, Agency)
+- 2004년 국가정보원과 산학연구협회가 개발한 블록 암호화 알고리즘
+- ARIA는 학계(Academy), 연구기관(Research Institute), 정부(Agency)의 영문 앞글자로 구성
+- 블록 크기는 128bit이며, 키 길이에 따라 128bit, 192bit, 256bit로 분류
+- ARIA는 경량 환경 및 하드웨어에서의 효율성 향상을 위해 개발되었으며, ARIA가 사용하는 대부분의 연산은 XOR과 같은 단순한 바이트 연산으로 구성
+
+(5) IDEA(International Data Encryption Algorithm)
+- DES를 대체하기 위해 스위스 연방기술 기관에서 개발한 블록 암호화 알고리즘
+- 128bit의 키를 사용하여 64bit의 평문을 8라운드에 걸쳐 64bit의 암호문을 만듦
+
+(6) LFSR(Linear Feedback Shift Register)
+- 선형 되먹임 시프트 레지스터는 시프트 레지스터의 일종으로, 레지스터에 입력되는 값이 이전 상태 값들의 선형 함수로 계산되는 구조로 되어 있는 스트림 암호화 알고리즘
+- 이때 사용되는 선형 함수는 주로 배타적 논리합(XOR)이고, LFSR의 초기 비트 값은 시드(Seed)라고 함
+
+
+### 비대칭키(공개키) 암호 방식 종류
+(1) 
+
+
