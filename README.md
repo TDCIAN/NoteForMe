@@ -1055,3 +1055,24 @@
 - 기아 현상(starvation) 최소화 기법
 
 
+
+### 서버 하드웨어 개발환경
+(1) 웹 서버
+- HTTP를 이용한 요청/응답을 처리
+- 웹 상의 정적 콘텐츠(CSS, Javascript, Image)를 처리
+- WEB-WAS-DB의 3계층 구조를 실무에서 활용 - 주요 제품으로 Apache 웹 서버, IIS 웹 서버, Google Web SErver, Nginx 등 존재
+
+(2) 웹 애플리케이션 서버
+- 사용자 요청 스레드를 처리하고, 데이터베이스에 접속하여 SQL 쿼리 문에 대한 결과값을 반환
+- 주요 제품으로 Tomcat, Weblogic, Jeus, Resin 등 존재
+
+(3) 데이터베이스 서버
+- 데이터의 수집, 저장을 위한 용도로 사용
+- 연계되는 주요 DBMS로 MySQL, Oracle, MS-SQL, DB2 등 존재
+
+(4) 파일 서버
+- 파일 저장 하드웨어로 물리 저장장치를 활용한 서버
+- 대용량 HDD, SSD 등의 장치가 존재
+
+
+
